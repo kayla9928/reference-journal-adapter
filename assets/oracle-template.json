@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "instructions": "Copy into the target project. Populate catalogs and assertions only from the user-confirmed frozen specification.",
+  "catalog": {
+    "rule_ids": [],
+    "source_ids": []
+  },
+  "assertions": []
+}

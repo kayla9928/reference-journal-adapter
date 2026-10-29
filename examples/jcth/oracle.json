@@ -1,0 +1,1119 @@
+{
+  "schema_version": 1,
+  "title": "JCTH controlled expected results",
+  "interpretation": {
+    "gate_a": "Exact output or processor-visible behavior required by confirmed JCTH rules.",
+    "gate_b": "Evidence-derived exact type output retained separately from confirmed Gate A.",
+    "probe": "A processor-visible invariant that must not be promoted to final acceptance without the stated mapping evidence.",
+    "zotero_only": "A layout or field-mapping question that this auxiliary text comparator cannot decide."
+  },
+  "catalog": {
+    "rule_ids": [
+      "BIB-001",
+      "BIB-002",
+      "BIB-003",
+      "BIB-004",
+      "BIB-005",
+      "BIB-006",
+      "BIB-007",
+      "BIB-008",
+      "BIB-009",
+      "BIB-010",
+      "BIB-011",
+      "BIB-012",
+      "BIB-013",
+      "CIT-001",
+      "CIT-003",
+      "CIT-004",
+      "TYPE-ARTICLE",
+      "TYPE-BOOK",
+      "TYPE-CHAPTER",
+      "TYPE-CONFERENCE",
+      "TYPE-PREPRINT",
+      "TYPE-THESIS",
+      "TYPE-WEB"
+    ],
+    "source_ids": [
+      "SRC-JCTH-A1-001",
+      "SRC-JCTH-A2-001",
+      "SRC-JCTH-A2-002",
+      "SRC-JCTH-A3-001",
+      "SRC-JCTH-B1-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "CIT_SINGLE_TEXT",
+      "gate": "A",
+      "kind": "exact_text",
+      "expected": "2",
+      "parent_status": "pass",
+      "rule_ids": [
+        "CIT-001"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "scope": "citation",
+      "target": "CIT_SINGLE"
+    },
+    {
+      "id": "CIT_SINGLE_SUPERSCRIPT",
+      "gate": "A",
+      "kind": "html_tag_contains",
+      "tag": "sup",
+      "expected": "2",
+      "parent_status": "pass",
+      "rule_ids": [
+        "CIT-001"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "scope": "citation",
+      "target": "CIT_SINGLE"
+    },
+    {
+      "id": "CIT_NONCONSECUTIVE_TEXT",
+      "gate": "A",
+      "kind": "exact_text",
+      "expected": "2,5",
+      "parent_status": "pass",
+      "rule_ids": [
+        "CIT-001",
+        "CIT-003"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "scope": "citation",
+      "target": "CIT_NONCONSECUTIVE"
+    },
+    {
+      "id": "CIT_NONCONSECUTIVE_SUPERSCRIPT",
+      "gate": "A",
+      "kind": "html_tag_contains",
+      "tag": "sup",
+      "expected": "2,5",
+      "parent_status": "pass",
+      "rule_ids": [
+        "CIT-001",
+        "CIT-003"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "scope": "citation",
+      "target": "CIT_NONCONSECUTIVE"
+    },
+    {
+      "id": "CIT_COLLAPSE_TEXT",
+      "gate": "A",
+      "kind": "exact_text",
+      "expected": "2–4",
+      "parent_status": "pass",
+      "rule_ids": [
+        "CIT-001",
+        "CIT-003",
+        "CIT-004"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001",
+        "SRC-JCTH-B1-001"
+      ],
+      "scope": "citation",
+      "target": "CIT_COLLAPSE"
+    },
+    {
+      "id": "CIT_COLLAPSE_SUPERSCRIPT",
+      "gate": "A",
+      "kind": "html_tag_contains",
+      "tag": "sup",
+      "expected": "2–4",
+      "parent_status": "pass",
+      "rule_ids": [
+        "CIT-001",
+        "CIT-004"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "scope": "citation",
+      "target": "CIT_COLLAPSE"
+    },
+    {
+      "id": "CIT_SORT_AND_MIX_TEXT",
+      "gate": "A",
+      "kind": "exact_text",
+      "expected": "2–4,7,9",
+      "parent_status": "pass",
+      "rule_ids": [
+        "CIT-001",
+        "CIT-003",
+        "CIT-004"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "scope": "citation",
+      "target": "CIT_SORT_AND_MIX"
+    },
+    {
+      "id": "CIT_SORT_AND_MIX_SUPERSCRIPT",
+      "gate": "A",
+      "kind": "html_tag_contains",
+      "tag": "sup",
+      "expected": "2–4,7,9",
+      "parent_status": "pass",
+      "rule_ids": [
+        "CIT-001",
+        "CIT-003",
+        "CIT-004"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "scope": "citation",
+      "target": "CIT_SORT_AND_MIX"
+    },
+    {
+      "id": "BIB_LINE_SPACING",
+      "gate": "A",
+      "kind": "equals",
+      "expected": 2,
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-004"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-B1-001"
+      ],
+      "scope": "parameter",
+      "target": "linespacing"
+    },
+    {
+      "id": "BIB_ENTRY_SPACING",
+      "gate": "A",
+      "kind": "equals",
+      "expected": 0,
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-004"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-B1-001"
+      ],
+      "scope": "parameter",
+      "target": "entryspacing"
+    },
+    {
+      "id": "BIB_SECOND_FIELD_PARAMETER",
+      "gate": "A",
+      "kind": "equals",
+      "expected": "flush",
+      "parent_status": "pass",
+      "rule_ids": [
+        "BIB-002",
+        "BIB-003"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A3-001",
+        "SRC-JCTH-B1-001"
+      ],
+      "scope": "parameter",
+      "target": "second-field-align"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-008",
+        "BIB-009",
+        "BIB-010",
+        "BIB-011",
+        "BIB-012",
+        "TYPE-ARTICLE"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001",
+        "SRC-JCTH-B1-001"
+      ],
+      "id": "J01_BOTH_IDS_EXACT",
+      "kind": "exact_text",
+      "expected": "[1] Alpha A. Controlled article with both identifiers. J Delib Long Med 2024;12(3):101–109. doi: 10.1234/JCTH.TEST.001, PMID: 90000001.",
+      "scope": "entry",
+      "target": "J01_BOTH_IDS"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-008"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001",
+        "SRC-JCTH-B1-001"
+      ],
+      "kind": "not_html_tag_contains",
+      "tag": "i",
+      "expected": "J Delib Long Med",
+      "id": "J01_BOTH_IDS_STYLE_1",
+      "scope": "entry",
+      "target": "J01_BOTH_IDS"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-006",
+        "BIB-007",
+        "BIB-008",
+        "BIB-009",
+        "BIB-010",
+        "BIB-011",
+        "BIB-012",
+        "TYPE-ARTICLE"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001"
+      ],
+      "id": "J02_SIX_DOI_EXACT",
+      "kind": "exact_text",
+      "expected": "[2] Baker B, Chen C, Diaz D, Evans E, Foster F, Green G. Six-author boundary test. J Six Author Med 2023;8(2):210–219. doi: 10.1234/JCTH.TEST.002.",
+      "scope": "entry",
+      "target": "J02_SIX_DOI"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-008"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001"
+      ],
+      "kind": "not_html_tag_contains",
+      "tag": "i",
+      "expected": "J Six Author Med",
+      "id": "J02_SIX_DOI_STYLE_1",
+      "scope": "entry",
+      "target": "J02_SIX_DOI"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-006",
+        "BIB-007",
+        "BIB-008",
+        "BIB-009",
+        "BIB-010",
+        "BIB-011",
+        "BIB-012",
+        "TYPE-ARTICLE"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001"
+      ],
+      "id": "J03_SEVEN_PMID_EXACT",
+      "kind": "exact_text",
+      "expected": "[3] Hall H, Irwin I, Jones J, Khan K, Liu L, Moore M, et al. Seven-author truncation test. J Author Bound 2022;7(4):301–308. PMID: 90000003.",
+      "scope": "entry",
+      "target": "J03_SEVEN_PMID"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-006"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001"
+      ],
+      "kind": "html_tag_contains",
+      "tag": "i",
+      "expected": "et al.",
+      "id": "J03_SEVEN_PMID_STYLE_1",
+      "scope": "entry",
+      "target": "J03_SEVEN_PMID"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-008"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001"
+      ],
+      "kind": "not_html_tag_contains",
+      "tag": "i",
+      "expected": "J Author Bound",
+      "id": "J03_SEVEN_PMID_STYLE_2",
+      "scope": "entry",
+      "target": "J03_SEVEN_PMID"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-008",
+        "BIB-009",
+        "BIB-010",
+        "BIB-011",
+        "BIB-012",
+        "TYPE-ARTICLE"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001"
+      ],
+      "id": "J04_ELOCATION_NO_IDS_EXACT",
+      "kind": "exact_text",
+      "expected": "[4] Owens O, Patel P. Electronic location without identifiers. J Electron Loc 2025;14:e10045.",
+      "scope": "entry",
+      "target": "J04_ELOCATION_NO_IDS"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-008"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001"
+      ],
+      "kind": "not_html_tag_contains",
+      "tag": "i",
+      "expected": "J Electron Loc",
+      "id": "J04_ELOCATION_NO_IDS_STYLE_1",
+      "scope": "entry",
+      "target": "J04_ELOCATION_NO_IDS"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-008",
+        "BIB-009",
+        "BIB-010",
+        "BIB-011",
+        "BIB-012",
+        "TYPE-ARTICLE"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001"
+      ],
+      "id": "J05_SUPPLEMENT_EXACT",
+      "kind": "exact_text",
+      "expected": "[5] Reed R. Supplement issue formatting test. Hepatology 2022;36(Suppl 1):S30–S34. doi: 10.1234/JCTH.TEST.005, PMID: 90000005.",
+      "scope": "entry",
+      "target": "J05_SUPPLEMENT"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-008"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001"
+      ],
+      "kind": "not_html_tag_contains",
+      "tag": "i",
+      "expected": "Hepatology",
+      "id": "J05_SUPPLEMENT_STYLE_1",
+      "scope": "entry",
+      "target": "J05_SUPPLEMENT"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-008",
+        "BIB-009",
+        "BIB-010",
+        "BIB-011",
+        "BIB-012",
+        "TYPE-ARTICLE"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001"
+      ],
+      "id": "J06_ISSUE_NO_VOLUME_EXACT",
+      "kind": "exact_text",
+      "expected": "[6] Stone S, Turner T. Issue present without volume. Clin Orthop Test Res 2021;(401):209–222. PMID: 90000006.",
+      "scope": "entry",
+      "target": "J06_ISSUE_NO_VOLUME"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-008"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001"
+      ],
+      "kind": "not_html_tag_contains",
+      "tag": "i",
+      "expected": "Clin Orthop Test Res",
+      "id": "J06_ISSUE_NO_VOLUME_STYLE_1",
+      "scope": "entry",
+      "target": "J06_ISSUE_NO_VOLUME"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-008",
+        "BIB-009",
+        "BIB-010",
+        "BIB-011",
+        "BIB-012",
+        "TYPE-ARTICLE"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "J07_EPUB_EXACT",
+      "kind": "exact_text",
+      "expected": "[7] Underwood U, Vega V, Wang W, Xu X, Young Y, Zhou Z. Electronically published ahead of print. J Epub Test 2025;108(5):2433–2442. Epub 2025 Jul 1. doi: 10.1234/JCTH.TEST.007, PMID: 90000007.",
+      "scope": "entry",
+      "target": "J07_EPUB"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-008"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "kind": "not_html_tag_contains",
+      "tag": "i",
+      "expected": "J Epub Test",
+      "id": "J07_EPUB_STYLE_1",
+      "scope": "entry",
+      "target": "J07_EPUB"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-008",
+        "BIB-009",
+        "BIB-010",
+        "BIB-011",
+        "TYPE-ARTICLE"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001",
+        "SRC-JCTH-B1-001"
+      ],
+      "id": "J08_NAMES_AND_CASE_EXACT",
+      "kind": "exact_text",
+      "expected": "[8] de Oliveira THF, Gonçalves ÓR. Preserve Mixed-Case biomarkers in portal hypertension. J Name Test 2020;6(10):573–582.",
+      "scope": "entry",
+      "target": "J08_NAMES_AND_CASE"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-008"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002",
+        "SRC-JCTH-A3-001",
+        "SRC-JCTH-B1-001"
+      ],
+      "kind": "not_html_tag_contains",
+      "tag": "i",
+      "expected": "J Name Test",
+      "id": "J08_NAMES_AND_CASE_STYLE_1",
+      "scope": "entry",
+      "target": "J08_NAMES_AND_CASE"
+    },
+    {
+      "gate": "B",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "TYPE-BOOK"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "B01_ORGANIZATION_BOOK_EXACT",
+      "kind": "exact_text",
+      "expected": "[9] World Clinical Society. Controlled handbook of liver medicine. 3rd edition. Washington, DC: World Clinical Society; 2020.",
+      "scope": "entry",
+      "target": "B01_ORGANIZATION_BOOK"
+    },
+    {
+      "gate": "B",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-007",
+        "TYPE-BOOK"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "kind": "not_html_tag_contains",
+      "tag": "i",
+      "expected": "Controlled",
+      "id": "B01_ORGANIZATION_BOOK_STYLE_1",
+      "scope": "entry",
+      "target": "B01_ORGANIZATION_BOOK"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-011",
+        "TYPE-CHAPTER"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "C01_BOOK_CHAPTER_EXACT",
+      "kind": "exact_text",
+      "expected": "[10] Shah J. Bladder outflow obstruction. In: Dawson C, Whitfield HN, editors. ABC of Urology. 2nd ed. Oxford: Blackwell Publishing Ltd.; 2006:6–9.",
+      "scope": "entry",
+      "target": "C01_BOOK_CHAPTER"
+    },
+    {
+      "gate": "A",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "TYPE-CHAPTER"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "kind": "not_html_tag_contains",
+      "tag": "i",
+      "expected": "ABC of Urology",
+      "id": "C01_BOOK_CHAPTER_STYLE_1",
+      "scope": "entry",
+      "target": "C01_BOOK_CHAPTER"
+    },
+    {
+      "gate": "B",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-011",
+        "TYPE-CONFERENCE"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "C02_CONFERENCE_PAPER_EXACT",
+      "kind": "exact_text",
+      "expected": "[11] Ollmar S, Nicander I, Aberg I, Birgersson U. Evolution of a diagnostic decision support tool based on electrical impedance. In: Scharfetter H, Merwa R, editors. 13th International Conference on Electrical Bioimpedance and the 8th Conference on Electrical Impedance Tomography; 2007 Aug 29-Sep 2; Graz, Austria. Berlin: Springer; 2007:4–7.",
+      "scope": "entry",
+      "target": "C02_CONFERENCE_PAPER"
+    },
+    {
+      "gate": "B",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "TYPE-THESIS"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "T01_THESIS_EXACT",
+      "kind": "exact_text",
+      "expected": "[12] Grant C. Grounded in your culture: the hidden key to promoting academic achievement among African American adolescent males [Dissertation]. Minneapolis: Capella University; 2010.",
+      "scope": "entry",
+      "target": "T01_THESIS"
+    },
+    {
+      "gate": "B",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-007",
+        "TYPE-THESIS"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "kind": "not_html_tag_contains",
+      "tag": "i",
+      "expected": "Grounded",
+      "id": "T01_THESIS_STYLE_1",
+      "scope": "entry",
+      "target": "T01_THESIS"
+    },
+    {
+      "gate": "Probe",
+      "parent_status": "pass",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-009",
+        "BIB-013",
+        "TYPE-WEB"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "WEB_AUTHOR",
+      "kind": "contains_text",
+      "expected": "World Liver Organization",
+      "scope": "entry",
+      "target": "W01_WEBPAGE"
+    },
+    {
+      "gate": "Probe",
+      "parent_status": "pass",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-009",
+        "BIB-013",
+        "TYPE-WEB"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "WEB_TITLE",
+      "kind": "contains_text",
+      "expected": "Controlled guidance for liver care",
+      "scope": "entry",
+      "target": "W01_WEBPAGE"
+    },
+    {
+      "gate": "Probe",
+      "parent_status": "pass",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-009",
+        "BIB-013",
+        "TYPE-WEB"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "WEB_YEAR",
+      "kind": "contains_text",
+      "expected": "2024",
+      "scope": "entry",
+      "target": "W01_WEBPAGE"
+    },
+    {
+      "gate": "Probe",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-009",
+        "BIB-013",
+        "TYPE-WEB"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "WEB_INTERNET",
+      "kind": "contains_text",
+      "expected": "[Internet]",
+      "scope": "entry",
+      "target": "W01_WEBPAGE"
+    },
+    {
+      "gate": "Probe",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-009",
+        "BIB-013",
+        "TYPE-WEB"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "WEB_CITED_DATE",
+      "kind": "contains_text",
+      "expected": "cited 2026 Aug 19",
+      "scope": "entry",
+      "target": "W01_WEBPAGE"
+    },
+    {
+      "gate": "Probe",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-009",
+        "BIB-013",
+        "TYPE-WEB"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "WEB_AVAILABLE_FROM",
+      "kind": "contains_text",
+      "expected": "Available from: https://example.org/controlled-liver-guidance",
+      "scope": "entry",
+      "target": "W01_WEBPAGE"
+    },
+    {
+      "gate": "Probe",
+      "parent_status": "pass",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-009",
+        "TYPE-PREPRINT"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "PREPRINT_AUTHORS",
+      "kind": "contains_text",
+      "expected": "Rivera R, Singh S",
+      "scope": "entry",
+      "target": "P01_PREPRINT_MAPPING_PROBE"
+    },
+    {
+      "gate": "Probe",
+      "parent_status": "pass",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-009",
+        "TYPE-PREPRINT"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "PREPRINT_TITLE",
+      "kind": "contains_text",
+      "expected": "Controlled preprint on translational hepatology",
+      "scope": "entry",
+      "target": "P01_PREPRINT_MAPPING_PROBE"
+    },
+    {
+      "gate": "Probe",
+      "parent_status": "pass",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-009",
+        "TYPE-PREPRINT"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "PREPRINT_REPOSITORY",
+      "kind": "contains_text",
+      "expected": "medRxiv",
+      "scope": "entry",
+      "target": "P01_PREPRINT_MAPPING_PROBE"
+    },
+    {
+      "gate": "Probe",
+      "parent_status": "pass",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-009",
+        "TYPE-PREPRINT"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "PREPRINT_YEAR",
+      "kind": "contains_text",
+      "expected": "2025",
+      "scope": "entry",
+      "target": "P01_PREPRINT_MAPPING_PROBE"
+    },
+    {
+      "gate": "Probe",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-009",
+        "TYPE-PREPRINT"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "PREPRINT_IDENTIFIER",
+      "kind": "contains_text",
+      "expected": "medRxiv 2025:2025.01.15.123456",
+      "scope": "entry",
+      "target": "P01_PREPRINT_MAPPING_PROBE"
+    },
+    {
+      "gate": "Probe",
+      "parent_status": "known_difference",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-009",
+        "TYPE-PREPRINT"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "PREPRINT_VERSION",
+      "kind": "contains_text",
+      "expected": "version 2",
+      "scope": "entry",
+      "target": "P01_PREPRINT_MAPPING_PROBE"
+    },
+    {
+      "gate": "Probe",
+      "parent_status": "pass",
+      "rule_ids": [
+        "BIB-001",
+        "BIB-002",
+        "BIB-005",
+        "BIB-007",
+        "BIB-009",
+        "TYPE-PREPRINT"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A2-002"
+      ],
+      "id": "PREPRINT_DOI",
+      "kind": "contains_text",
+      "expected": "10.1101/2025.01.15.123456",
+      "scope": "entry",
+      "target": "P01_PREPRINT_MAPPING_PROBE"
+    },
+    {
+      "id": "ZOTERO_HANGING_VISUAL",
+      "reason": "The auxiliary processor exposes second-field-align but cannot prove Zotero's wrapped-line geometry or the visible separator after [n].",
+      "rule_ids": [
+        "BIB-002",
+        "BIB-003"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A3-001",
+        "SRC-JCTH-B1-001"
+      ],
+      "scope": "zotero",
+      "kind": "zotero_only"
+    },
+    {
+      "id": "ZOTERO_JOURNAL_ABBR_MAPPING",
+      "reason": "Final acceptance must confirm that Zotero supplies the curated Journal Abbr value as container-title-short.",
+      "rule_ids": [
+        "BIB-008"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "scope": "zotero",
+      "kind": "zotero_only"
+    },
+    {
+      "id": "ZOTERO_PMID_MAPPING",
+      "reason": "The CSL-JSON fixture supplies PMID directly; Zotero's library-field or Extra mapping must be witnessed.",
+      "rule_ids": [
+        "BIB-012"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "scope": "zotero",
+      "kind": "zotero_only"
+    },
+    {
+      "id": "ZOTERO_EPUB_DATE_MAPPING",
+      "reason": "J07 exact text is testable when available-date is supplied, but Zotero may not expose online-publication date through that CSL variable.",
+      "rule_ids": [
+        "BIB-009"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A1-001",
+        "SRC-JCTH-A2-002"
+      ],
+      "scope": "zotero",
+      "kind": "zotero_only"
+    },
+    {
+      "id": "ZOTERO_PREPRINT_MAPPING",
+      "reason": "Zotero's Preprint item type and identifier/version variables must be observed before the Probe can become an exact gate.",
+      "rule_ids": [
+        "TYPE-PREPRINT"
+      ],
+      "source_ids": [
+        "SRC-JCTH-A2-002"
+      ],
+      "scope": "zotero",
+      "kind": "zotero_only"
+    }
+  ]
+}

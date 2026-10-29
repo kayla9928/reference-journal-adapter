@@ -1,0 +1,44 @@
+{
+  "number_assignment_order": [
+    "J01_BOTH_IDS",
+    "J02_SIX_DOI",
+    "J03_SEVEN_PMID",
+    "J04_ELOCATION_NO_IDS",
+    "J05_SUPPLEMENT",
+    "J06_ISSUE_NO_VOLUME",
+    "J07_EPUB",
+    "J08_NAMES_AND_CASE",
+    "B01_ORGANIZATION_BOOK",
+    "C01_BOOK_CHAPTER",
+    "C02_CONFERENCE_PAPER",
+    "T01_THESIS",
+    "W01_WEBPAGE",
+    "P01_PREPRINT_MAPPING_PROBE"
+  ],
+  "scenarios": [
+    {
+      "id": "CIT_SINGLE",
+      "items": ["J02_SIX_DOI"],
+      "expected_text": "2",
+      "expected_style": "superscript"
+    },
+    {
+      "id": "CIT_NONCONSECUTIVE",
+      "items": ["J02_SIX_DOI", "J05_SUPPLEMENT"],
+      "expected_text": "2,5",
+      "expected_style": "superscript"
+    },
+    {
+      "id": "CIT_COLLAPSE",
+      "items": ["J02_SIX_DOI", "J03_SEVEN_PMID", "J04_ELOCATION_NO_IDS"],
+      "expected_text": "2–4",
+      "expected_style": "superscript"
+    },
+    {
+      "id": "CIT_SORT_AND_MIX",
+      "items": ["B01_ORGANIZATION_BOOK", "J03_SEVEN_PMID", "J02_SIX_DOI", "J07_EPUB", "J04_ELOCATION_NO_IDS"],
+      "expected_text": "2–4,7,9",
+      "expected_style": "superscript"
+    }
+  ]
+}

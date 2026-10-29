@@ -1,0 +1,232 @@
+[
+  {
+    "id": "J01_BOTH_IDS",
+    "type": "article-journal",
+    "author": [
+      {"family": "Alpha", "given": "Alice"}
+    ],
+    "title": "Controlled article with both identifiers",
+    "container-title": "Journal of Deliberately Long Medicine",
+    "container-title-short": "J Delib Long Med",
+    "issued": {"date-parts": [[2024]]},
+    "volume": "12",
+    "issue": "3",
+    "page": "101-109",
+    "DOI": "10.1234/JCTH.TEST.001",
+    "PMID": "90000001"
+  },
+  {
+    "id": "J02_SIX_DOI",
+    "type": "article-journal",
+    "author": [
+      {"family": "Baker", "given": "Barbara"},
+      {"family": "Chen", "given": "Chao"},
+      {"family": "Diaz", "given": "Diego"},
+      {"family": "Evans", "given": "Emily"},
+      {"family": "Foster", "given": "Farah"},
+      {"family": "Green", "given": "George"}
+    ],
+    "title": "Six-author boundary test",
+    "container-title": "Journal of Six Author Medicine",
+    "container-title-short": "J Six Author Med",
+    "issued": {"date-parts": [[2023]]},
+    "volume": "8",
+    "issue": "2",
+    "page": "210-219",
+    "DOI": "10.1234/JCTH.TEST.002"
+  },
+  {
+    "id": "J03_SEVEN_PMID",
+    "type": "article-journal",
+    "author": [
+      {"family": "Hall", "given": "Helen"},
+      {"family": "Irwin", "given": "Ian"},
+      {"family": "Jones", "given": "Julia"},
+      {"family": "Khan", "given": "Karim"},
+      {"family": "Liu", "given": "Lin"},
+      {"family": "Moore", "given": "Maria"},
+      {"family": "Nguyen", "given": "Nam"}
+    ],
+    "title": "Seven-author truncation test",
+    "container-title": "Journal of Author Boundaries",
+    "container-title-short": "J Author Bound",
+    "issued": {"date-parts": [[2022]]},
+    "volume": "7",
+    "issue": "4",
+    "page": "301-308",
+    "PMID": "90000003"
+  },
+  {
+    "id": "J04_ELOCATION_NO_IDS",
+    "type": "article-journal",
+    "author": [
+      {"family": "Owens", "given": "Olivia"},
+      {"family": "Patel", "given": "Pranav"}
+    ],
+    "title": "Electronic location without identifiers",
+    "container-title": "Journal of Electronic Locations",
+    "container-title-short": "J Electron Loc",
+    "issued": {"date-parts": [[2025]]},
+    "volume": "14",
+    "page": "e10045"
+  },
+  {
+    "id": "J05_SUPPLEMENT",
+    "type": "article-journal",
+    "author": [
+      {"family": "Reed", "given": "Rachel"}
+    ],
+    "title": "Supplement issue formatting test",
+    "container-title": "Hepatology",
+    "container-title-short": "Hepatology",
+    "issued": {"date-parts": [[2022]]},
+    "volume": "36",
+    "issue": "Suppl 1",
+    "page": "S30-S34",
+    "DOI": "10.1234/JCTH.TEST.005",
+    "PMID": "90000005"
+  },
+  {
+    "id": "J06_ISSUE_NO_VOLUME",
+    "type": "article-journal",
+    "author": [
+      {"family": "Stone", "given": "Samuel"},
+      {"family": "Turner", "given": "Tara"}
+    ],
+    "title": "Issue present without volume",
+    "container-title": "Clinical Orthopaedic Test Research",
+    "container-title-short": "Clin Orthop Test Res",
+    "issued": {"date-parts": [[2021]]},
+    "issue": "401",
+    "page": "209-222",
+    "PMID": "90000006"
+  },
+  {
+    "id": "J07_EPUB",
+    "type": "article-journal",
+    "author": [
+      {"family": "Underwood", "given": "Uma"},
+      {"family": "Vega", "given": "Victor"},
+      {"family": "Wang", "given": "Wei"},
+      {"family": "Xu", "given": "Xia"},
+      {"family": "Young", "given": "Yara"},
+      {"family": "Zhou", "given": "Zhen"}
+    ],
+    "title": "Electronically published ahead of print",
+    "container-title": "Journal of Electronic Publication Tests",
+    "container-title-short": "J Epub Test",
+    "issued": {"date-parts": [[2025]]},
+    "available-date": {"date-parts": [[2025, 7, 1]]},
+    "volume": "108",
+    "issue": "5",
+    "page": "2433-2442",
+    "DOI": "10.1234/JCTH.TEST.007",
+    "PMID": "90000007"
+  },
+  {
+    "id": "J08_NAMES_AND_CASE",
+    "type": "article-journal",
+    "author": [
+      {"non-dropping-particle": "de", "family": "Oliveira", "given": "Thiago Henrique Ferreira"},
+      {"family": "Gonçalves", "given": "Óscar Ribeiro"}
+    ],
+    "title": "Preserve Mixed-Case biomarkers in portal hypertension",
+    "container-title": "Journal of Name Testing",
+    "container-title-short": "J Name Test",
+    "issued": {"date-parts": [[2020]]},
+    "volume": "6",
+    "issue": "10",
+    "page": "573-582"
+  },
+  {
+    "id": "B01_ORGANIZATION_BOOK",
+    "type": "book",
+    "author": [
+      {"literal": "World Clinical Society"}
+    ],
+    "title": "Controlled handbook of liver medicine",
+    "edition": "3",
+    "publisher-place": "Washington, DC",
+    "publisher": "World Clinical Society",
+    "issued": {"date-parts": [[2020]]}
+  },
+  {
+    "id": "C01_BOOK_CHAPTER",
+    "type": "chapter",
+    "author": [
+      {"family": "Shah", "given": "James"}
+    ],
+    "title": "Bladder outflow obstruction",
+    "editor": [
+      {"family": "Dawson", "given": "Chris"},
+      {"family": "Whitfield", "given": "Hugh N"}
+    ],
+    "container-title": "ABC of Urology",
+    "edition": "2",
+    "publisher-place": "Oxford",
+    "publisher": "Blackwell Publishing Ltd.",
+    "issued": {"date-parts": [[2006]]},
+    "page": "6-9"
+  },
+  {
+    "id": "C02_CONFERENCE_PAPER",
+    "type": "paper-conference",
+    "author": [
+      {"family": "Ollmar", "given": "Stig"},
+      {"family": "Nicander", "given": "Ingemar"},
+      {"family": "Aberg", "given": "Ingrid"},
+      {"family": "Birgersson", "given": "Ulf"}
+    ],
+    "title": "Evolution of a diagnostic decision support tool based on electrical impedance",
+    "editor": [
+      {"family": "Scharfetter", "given": "Hermann"},
+      {"family": "Merwa", "given": "Robert"}
+    ],
+    "event-title": "13th International Conference on Electrical Bioimpedance and the 8th Conference on Electrical Impedance Tomography",
+    "event-date": {"date-parts": [[2007, 8, 29], [2007, 9, 2]]},
+    "event-place": "Graz, Austria",
+    "publisher-place": "Berlin",
+    "publisher": "Springer",
+    "issued": {"date-parts": [[2007]]},
+    "page": "4-7"
+  },
+  {
+    "id": "T01_THESIS",
+    "type": "thesis",
+    "author": [
+      {"family": "Grant", "given": "Carol"}
+    ],
+    "title": "Grounded in your culture: the hidden key to promoting academic achievement among African American adolescent males",
+    "genre": "Dissertation",
+    "publisher-place": "Minneapolis",
+    "publisher": "Capella University",
+    "issued": {"date-parts": [[2010]]}
+  },
+  {
+    "id": "W01_WEBPAGE",
+    "type": "webpage",
+    "author": [
+      {"literal": "World Liver Organization"}
+    ],
+    "title": "Controlled guidance for liver care",
+    "container-title": "World Liver Organization",
+    "issued": {"date-parts": [[2024]]},
+    "accessed": {"date-parts": [[2026, 8, 19]]},
+    "URL": "https://example.org/controlled-liver-guidance"
+  },
+  {
+    "id": "P01_PREPRINT_MAPPING_PROBE",
+    "type": "article",
+    "author": [
+      {"family": "Rivera", "given": "Rosa"},
+      {"family": "Singh", "given": "Sanjay"}
+    ],
+    "title": "Controlled preprint on translational hepatology",
+    "genre": "preprint",
+    "container-title": "medRxiv",
+    "issued": {"date-parts": [[2025]]},
+    "number": "2025.01.15.123456",
+    "version": "2",
+    "DOI": "10.1101/2025.01.15.123456"
+  }
+]

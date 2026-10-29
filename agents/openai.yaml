@@ -1,0 +1,6 @@
+interface:
+  display_name: "Reference Journal Adapter"
+  short_description: "Build and validate Zotero CSL journal styles"
+  default_prompt: "Use $reference-journal-adapter to adapt a journal reference style for Zotero from authoritative evidence."
+policy:
+  allow_implicit_invocation: true

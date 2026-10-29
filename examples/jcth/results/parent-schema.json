@@ -1,0 +1,20 @@
+{
+  "style": "parent.csl",
+  "well_formed_xml": true,
+  "relax_ng_valid": true,
+  "relax_ng_errors": [],
+  "schematron_valid": true,
+  "schematron_failed_asserts": [],
+  "schema": {
+    "identity": "506040022f6c37846343edd36658b23e85b5b8ff",
+    "release": "v1.0.2",
+    "rnc": "external:csl.rnc",
+    "schematron": "external:csl.sch"
+  },
+  "validator": {
+    "python": "3.12.14",
+    "lxml": "6.1.1.0",
+    "rnc2rng": "2.7.0"
+  },
+  "public_projection": "Absolute resource paths replaced with case-relative paths or external resource identifiers; result fields unchanged."
+}

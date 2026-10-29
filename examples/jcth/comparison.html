@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JCTH 样式调整前后对比</title>
+<style>body{font:16px/1.65 system-ui,sans-serif;max-width:1400px;margin:36px auto;padding:0 20px;color:#18243a}h1{font-size:28px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #d8e0ed;padding:16px;text-align:left;vertical-align:top}thead{background:#edf4ff}tbody th{font-size:12px;overflow-wrap:anywhere;width:12%}td{width:44%;overflow-wrap:anywhere}.csl-left-margin{float:left;padding-right:8px}.csl-right-inline{margin-left:2.5em}tr:nth-child(even){background:#f8fafc}a{color:#185cba}@media(max-width:700px){th,td{padding:8px;font-size:13px}}</style>
+<h1>JCTH 样式调整前后对比</h1>
+<p>2026-10-30 使用当前 Skill 脚本回放的处理器 HTML 输出。包含 4 种引用组合与 14 条受控记录。</p>
+<p>此页比较文字与斜体效果；Word 中的悬挂与行距见历史 Zotero 摘要。结果与已知会议日期差异见 <a href="case.md">案例说明</a>。</p>
+<table><thead><tr><th>测试记录</th><th>父样式</th><th>适配样式</th></tr></thead><tbody><tr><th>CIT_SINGLE</th><td><sup>2</sup></td><td><sup>2</sup></td></tr><tr><th>CIT_NONCONSECUTIVE</th><td><sup>2,5</sup></td><td><sup>2,5</sup></td></tr><tr><th>CIT_COLLAPSE</th><td><sup>2–4</sup></td><td><sup>2–4</sup></td></tr><tr><th>CIT_SORT_AND_MIX</th><td><sup>2–4,7,9</sup></td><td><sup>2–4,7,9</sup></td></tr><tr><th>J01_BOTH_IDS</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[1]</div><div class="csl-right-inline">Alpha A. Controlled article with both identifiers. <i>J Delib Long Med</i>. 2024;12(3):101-109. doi:10.1234/JCTH.TEST.001</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[1]</div><div class="csl-right-inline">Alpha A. Controlled article with both identifiers. J Delib Long Med 2024;12(3):101–109. doi: 10.1234/JCTH.TEST.001, PMID: 90000001.</div>
+  </div>
+</td></tr><tr><th>J02_SIX_DOI</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[2]</div><div class="csl-right-inline">Baker B, Chen C, Diaz D, Evans E, Foster F, Green G. Six-author boundary test. <i>J Six Author Med</i>. 2023;8(2):210-219. doi:10.1234/JCTH.TEST.002</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[2]</div><div class="csl-right-inline">Baker B, Chen C, Diaz D, Evans E, Foster F, Green G. Six-author boundary test. J Six Author Med 2023;8(2):210–219. doi: 10.1234/JCTH.TEST.002.</div>
+  </div>
+</td></tr><tr><th>J03_SEVEN_PMID</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[3]</div><div class="csl-right-inline">Hall H, Irwin I, Jones J, Khan K, Liu L, Moore M, et al. Seven-author truncation test. <i>J Author Bound</i>. 2022;7(4):301-308.</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[3]</div><div class="csl-right-inline">Hall H, Irwin I, Jones J, Khan K, Liu L, Moore M, <i>et al.</i> Seven-author truncation test. J Author Bound 2022;7(4):301–308. PMID: 90000003.</div>
+  </div>
+</td></tr><tr><th>J04_ELOCATION_NO_IDS</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[4]</div><div class="csl-right-inline">Owens O, Patel P. Electronic location without identifiers. <i>J Electron Loc</i>. 2025;14:e10045.</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[4]</div><div class="csl-right-inline">Owens O, Patel P. Electronic location without identifiers. J Electron Loc 2025;14:e10045.</div>
+  </div>
+</td></tr><tr><th>J05_SUPPLEMENT</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[5]</div><div class="csl-right-inline">Reed R. Supplement issue formatting test. <i>Hepatology</i>. 2022;36(Suppl 1):S30-S34. doi:10.1234/JCTH.TEST.005</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[5]</div><div class="csl-right-inline">Reed R. Supplement issue formatting test. Hepatology 2022;36(Suppl 1):S30–S34. doi: 10.1234/JCTH.TEST.005, PMID: 90000005.</div>
+  </div>
+</td></tr><tr><th>J06_ISSUE_NO_VOLUME</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[6]</div><div class="csl-right-inline">Stone S, Turner T. Issue present without volume. <i>Clin Orthop Test Res</i>. 2021;(401):209-222.</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[6]</div><div class="csl-right-inline">Stone S, Turner T. Issue present without volume. Clin Orthop Test Res 2021;(401):209–222. PMID: 90000006.</div>
+  </div>
+</td></tr><tr><th>J07_EPUB</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[7]</div><div class="csl-right-inline">Underwood U, Vega V, Wang W, Xu X, Young Y, Zhou Z. Electronically published ahead of print. <i>J Epub Test</i>. 2025;108(5):2433-2442. doi:10.1234/JCTH.TEST.007</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[7]</div><div class="csl-right-inline">Underwood U, Vega V, Wang W, Xu X, Young Y, Zhou Z. Electronically published ahead of print. J Epub Test 2025;108(5):2433–2442. Epub 2025 Jul 1. doi: 10.1234/JCTH.TEST.007, PMID: 90000007.</div>
+  </div>
+</td></tr><tr><th>J08_NAMES_AND_CASE</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[8]</div><div class="csl-right-inline">de Oliveira THF, Gonçalves ÓR. Preserve Mixed-Case biomarkers in portal hypertension. <i>J Name Test</i>. 2020;6(10):573-582.</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[8]</div><div class="csl-right-inline">de Oliveira THF, Gonçalves ÓR. Preserve Mixed-Case biomarkers in portal hypertension. J Name Test 2020;6(10):573–582.</div>
+  </div>
+</td></tr><tr><th>B01_ORGANIZATION_BOOK</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[9]</div><div class="csl-right-inline">World Clinical Society. <i>Controlled Handbook of Liver Medicine</i>. 3rd ed. World Clinical Society; 2020.</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[9]</div><div class="csl-right-inline">World Clinical Society. Controlled handbook of liver medicine. 3rd edition. Washington, DC: World Clinical Society; 2020.</div>
+  </div>
+</td></tr><tr><th>C01_BOOK_CHAPTER</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[10]</div><div class="csl-right-inline">Shah J. Bladder outflow obstruction. In: Dawson C, Whitfield HN, eds. <i>ABC of Urology</i>. 2nd ed. Blackwell Publishing Ltd.; 2006:6-9.</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[10]</div><div class="csl-right-inline">Shah J. Bladder outflow obstruction. In: Dawson C, Whitfield HN, editors. ABC of Urology. 2nd ed. Oxford: Blackwell Publishing Ltd.; 2006:6–9.</div>
+  </div>
+</td></tr><tr><th>C02_CONFERENCE_PAPER</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[11]</div><div class="csl-right-inline">Ollmar S, Nicander I, Aberg I, Birgersson U. Evolution of a diagnostic decision support tool based on electrical impedance. In: Scharfetter H, Merwa R, eds. Springer; 2007:4-7.</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[11]</div><div class="csl-right-inline">Ollmar S, Nicander I, Aberg I, Birgersson U. Evolution of a diagnostic decision support tool based on electrical impedance. In: Scharfetter H, Merwa R, editors. 13th International Conference on Electrical Bioimpedance and the 8th Conference on Electrical Impedance Tomography; 2007 Aug 29–Sep 2; Graz, Austria. Berlin: Springer; 2007:4–7.</div>
+  </div>
+</td></tr><tr><th>T01_THESIS</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[12]</div><div class="csl-right-inline">Grant C. <i>Grounded in Your Culture: The Hidden Key to Promoting Academic Achievement among African American Adolescent Males</i>. Dissertation. Capella University; 2010.</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[12]</div><div class="csl-right-inline">Grant C. Grounded in your culture: the hidden key to promoting academic achievement among African American adolescent males [Dissertation]. Minneapolis: Capella University; 2010.</div>
+  </div>
+</td></tr><tr><th>W01_WEBPAGE</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[13]</div><div class="csl-right-inline">World Liver Organization. Controlled guidance for liver care. World Liver Organization. Published 2024. https://example.org/controlled-liver-guidance. Accessed August 19, 2026</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[13]</div><div class="csl-right-inline">World Liver Organization. Controlled guidance for liver care. World Liver Organization [Internet]. 2024. [cited 2026 Aug 19]. Available from: https://example.org/controlled-liver-guidance</div>
+  </div>
+</td></tr><tr><th>P01_PREPRINT_MAPPING_PROBE</th><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[14]</div><div class="csl-right-inline">Rivera R, Singh S. Controlled preprint on translational hepatology. <i>medRxiv</i>. Published online 2025. doi:10.1101/2025.01.15.123456</div>
+  </div>
+</td><td>  <div class="csl-entry">
+    <div class="csl-left-margin">[14]</div><div class="csl-right-inline">Rivera R, Singh S. Controlled preprint on translational hepatology. medRxiv 2025:2025.01.15.123456 version 2. doi: 10.1101/2025.01.15.123456.</div>
+  </div>
+</td></tr></tbody></table></html>

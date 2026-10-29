@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "instructions": "Use fixture item IDs or citeproc citation-item objects with id plus evidence-required locator, label, prefix, suffix, suppress-author, or author-only fields. Include only citation behaviors required by the frozen specification.",
+  "number_assignment_order": [],
+  "scenarios": []
+}

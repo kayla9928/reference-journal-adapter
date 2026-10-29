@@ -1,0 +1,261 @@
+{
+  "generated_at": "2026-10-29T17:11:31.572Z",
+  "auxiliary_only": true,
+  "processor": {
+    "module": "external:citeproc@2.4.63",
+    "package_name": "citeproc",
+    "package_version": "2.4.63",
+    "package_license": "CPAL-1.0 OR AGPL-1.0",
+    "engine_version": "1.4.61"
+  },
+  "language": "en-US",
+  "style": "parent.csl",
+  "locale": "external:locales-en-US.xml",
+  "items": "controlled-items.json",
+  "citation_scenarios": [
+    {
+      "id": "CIT_SINGLE",
+      "items": [
+        {
+          "id": "J02_SIX_DOI"
+        }
+      ],
+      "html": "<sup>2</sup>",
+      "plain_text": "2"
+    },
+    {
+      "id": "CIT_NONCONSECUTIVE",
+      "items": [
+        {
+          "id": "J02_SIX_DOI"
+        },
+        {
+          "id": "J05_SUPPLEMENT"
+        }
+      ],
+      "html": "<sup>2,5</sup>",
+      "plain_text": "2,5"
+    },
+    {
+      "id": "CIT_COLLAPSE",
+      "items": [
+        {
+          "id": "J02_SIX_DOI"
+        },
+        {
+          "id": "J03_SEVEN_PMID"
+        },
+        {
+          "id": "J04_ELOCATION_NO_IDS"
+        }
+      ],
+      "html": "<sup>2–4</sup>",
+      "plain_text": "2–4"
+    },
+    {
+      "id": "CIT_SORT_AND_MIX",
+      "items": [
+        {
+          "id": "B01_ORGANIZATION_BOOK"
+        },
+        {
+          "id": "J03_SEVEN_PMID"
+        },
+        {
+          "id": "J02_SIX_DOI"
+        },
+        {
+          "id": "J07_EPUB"
+        },
+        {
+          "id": "J04_ELOCATION_NO_IDS"
+        }
+      ],
+      "html": "<sup>2–4,7,9</sup>",
+      "plain_text": "2–4,7,9"
+    }
+  ],
+  "bibliography_parameters": {
+    "maxoffset": 4,
+    "entryspacing": 1,
+    "linespacing": 1,
+    "second-field-align": "flush",
+    "entry_ids": [
+      [
+        "J01_BOTH_IDS"
+      ],
+      [
+        "J02_SIX_DOI"
+      ],
+      [
+        "J03_SEVEN_PMID"
+      ],
+      [
+        "J04_ELOCATION_NO_IDS"
+      ],
+      [
+        "J05_SUPPLEMENT"
+      ],
+      [
+        "J06_ISSUE_NO_VOLUME"
+      ],
+      [
+        "J07_EPUB"
+      ],
+      [
+        "J08_NAMES_AND_CASE"
+      ],
+      [
+        "B01_ORGANIZATION_BOOK"
+      ],
+      [
+        "C01_BOOK_CHAPTER"
+      ],
+      [
+        "C02_CONFERENCE_PAPER"
+      ],
+      [
+        "T01_THESIS"
+      ],
+      [
+        "W01_WEBPAGE"
+      ],
+      [
+        "P01_PREPRINT_MAPPING_PROBE"
+      ]
+    ],
+    "bibliography_errors": [],
+    "done": false,
+    "bibstart": "<div class=\"csl-bib-body\">\n",
+    "bibend": "</div>"
+  },
+  "bibliography_entries": [
+    {
+      "number": 1,
+      "id": "J01_BOTH_IDS",
+      "ids": [
+        "J01_BOTH_IDS"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[1]</div><div class=\"csl-right-inline\">Alpha A. Controlled article with both identifiers. <i>J Delib Long Med</i>. 2024;12(3):101-109. doi:10.1234/JCTH.TEST.001</div>\n  </div>\n",
+      "plain_text": "[1] Alpha A. Controlled article with both identifiers. J Delib Long Med. 2024;12(3):101-109. doi:10.1234/JCTH.TEST.001"
+    },
+    {
+      "number": 2,
+      "id": "J02_SIX_DOI",
+      "ids": [
+        "J02_SIX_DOI"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[2]</div><div class=\"csl-right-inline\">Baker B, Chen C, Diaz D, Evans E, Foster F, Green G. Six-author boundary test. <i>J Six Author Med</i>. 2023;8(2):210-219. doi:10.1234/JCTH.TEST.002</div>\n  </div>\n",
+      "plain_text": "[2] Baker B, Chen C, Diaz D, Evans E, Foster F, Green G. Six-author boundary test. J Six Author Med. 2023;8(2):210-219. doi:10.1234/JCTH.TEST.002"
+    },
+    {
+      "number": 3,
+      "id": "J03_SEVEN_PMID",
+      "ids": [
+        "J03_SEVEN_PMID"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[3]</div><div class=\"csl-right-inline\">Hall H, Irwin I, Jones J, Khan K, Liu L, Moore M, et al. Seven-author truncation test. <i>J Author Bound</i>. 2022;7(4):301-308.</div>\n  </div>\n",
+      "plain_text": "[3] Hall H, Irwin I, Jones J, Khan K, Liu L, Moore M, et al. Seven-author truncation test. J Author Bound. 2022;7(4):301-308."
+    },
+    {
+      "number": 4,
+      "id": "J04_ELOCATION_NO_IDS",
+      "ids": [
+        "J04_ELOCATION_NO_IDS"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[4]</div><div class=\"csl-right-inline\">Owens O, Patel P. Electronic location without identifiers. <i>J Electron Loc</i>. 2025;14:e10045.</div>\n  </div>\n",
+      "plain_text": "[4] Owens O, Patel P. Electronic location without identifiers. J Electron Loc. 2025;14:e10045."
+    },
+    {
+      "number": 5,
+      "id": "J05_SUPPLEMENT",
+      "ids": [
+        "J05_SUPPLEMENT"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[5]</div><div class=\"csl-right-inline\">Reed R. Supplement issue formatting test. <i>Hepatology</i>. 2022;36(Suppl 1):S30-S34. doi:10.1234/JCTH.TEST.005</div>\n  </div>\n",
+      "plain_text": "[5] Reed R. Supplement issue formatting test. Hepatology. 2022;36(Suppl 1):S30-S34. doi:10.1234/JCTH.TEST.005"
+    },
+    {
+      "number": 6,
+      "id": "J06_ISSUE_NO_VOLUME",
+      "ids": [
+        "J06_ISSUE_NO_VOLUME"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[6]</div><div class=\"csl-right-inline\">Stone S, Turner T. Issue present without volume. <i>Clin Orthop Test Res</i>. 2021;(401):209-222.</div>\n  </div>\n",
+      "plain_text": "[6] Stone S, Turner T. Issue present without volume. Clin Orthop Test Res. 2021;(401):209-222."
+    },
+    {
+      "number": 7,
+      "id": "J07_EPUB",
+      "ids": [
+        "J07_EPUB"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[7]</div><div class=\"csl-right-inline\">Underwood U, Vega V, Wang W, Xu X, Young Y, Zhou Z. Electronically published ahead of print. <i>J Epub Test</i>. 2025;108(5):2433-2442. doi:10.1234/JCTH.TEST.007</div>\n  </div>\n",
+      "plain_text": "[7] Underwood U, Vega V, Wang W, Xu X, Young Y, Zhou Z. Electronically published ahead of print. J Epub Test. 2025;108(5):2433-2442. doi:10.1234/JCTH.TEST.007"
+    },
+    {
+      "number": 8,
+      "id": "J08_NAMES_AND_CASE",
+      "ids": [
+        "J08_NAMES_AND_CASE"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[8]</div><div class=\"csl-right-inline\">de Oliveira THF, Gonçalves ÓR. Preserve Mixed-Case biomarkers in portal hypertension. <i>J Name Test</i>. 2020;6(10):573-582.</div>\n  </div>\n",
+      "plain_text": "[8] de Oliveira THF, Gonçalves ÓR. Preserve Mixed-Case biomarkers in portal hypertension. J Name Test. 2020;6(10):573-582."
+    },
+    {
+      "number": 9,
+      "id": "B01_ORGANIZATION_BOOK",
+      "ids": [
+        "B01_ORGANIZATION_BOOK"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[9]</div><div class=\"csl-right-inline\">World Clinical Society. <i>Controlled Handbook of Liver Medicine</i>. 3rd ed. World Clinical Society; 2020.</div>\n  </div>\n",
+      "plain_text": "[9] World Clinical Society. Controlled Handbook of Liver Medicine. 3rd ed. World Clinical Society; 2020."
+    },
+    {
+      "number": 10,
+      "id": "C01_BOOK_CHAPTER",
+      "ids": [
+        "C01_BOOK_CHAPTER"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[10]</div><div class=\"csl-right-inline\">Shah J. Bladder outflow obstruction. In: Dawson C, Whitfield HN, eds. <i>ABC of Urology</i>. 2nd ed. Blackwell Publishing Ltd.; 2006:6-9.</div>\n  </div>\n",
+      "plain_text": "[10] Shah J. Bladder outflow obstruction. In: Dawson C, Whitfield HN, eds. ABC of Urology. 2nd ed. Blackwell Publishing Ltd.; 2006:6-9."
+    },
+    {
+      "number": 11,
+      "id": "C02_CONFERENCE_PAPER",
+      "ids": [
+        "C02_CONFERENCE_PAPER"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[11]</div><div class=\"csl-right-inline\">Ollmar S, Nicander I, Aberg I, Birgersson U. Evolution of a diagnostic decision support tool based on electrical impedance. In: Scharfetter H, Merwa R, eds. Springer; 2007:4-7.</div>\n  </div>\n",
+      "plain_text": "[11] Ollmar S, Nicander I, Aberg I, Birgersson U. Evolution of a diagnostic decision support tool based on electrical impedance. In: Scharfetter H, Merwa R, eds. Springer; 2007:4-7."
+    },
+    {
+      "number": 12,
+      "id": "T01_THESIS",
+      "ids": [
+        "T01_THESIS"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[12]</div><div class=\"csl-right-inline\">Grant C. <i>Grounded in Your Culture: The Hidden Key to Promoting Academic Achievement among African American Adolescent Males</i>. Dissertation. Capella University; 2010.</div>\n  </div>\n",
+      "plain_text": "[12] Grant C. Grounded in Your Culture: The Hidden Key to Promoting Academic Achievement among African American Adolescent Males. Dissertation. Capella University; 2010."
+    },
+    {
+      "number": 13,
+      "id": "W01_WEBPAGE",
+      "ids": [
+        "W01_WEBPAGE"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[13]</div><div class=\"csl-right-inline\">World Liver Organization. Controlled guidance for liver care. World Liver Organization. Published 2024. https://example.org/controlled-liver-guidance. Accessed August 19, 2026</div>\n  </div>\n",
+      "plain_text": "[13] World Liver Organization. Controlled guidance for liver care. World Liver Organization. Published 2024. https://example.org/controlled-liver-guidance. Accessed August 19, 2026"
+    },
+    {
+      "number": 14,
+      "id": "P01_PREPRINT_MAPPING_PROBE",
+      "ids": [
+        "P01_PREPRINT_MAPPING_PROBE"
+      ],
+      "html": "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[14]</div><div class=\"csl-right-inline\">Rivera R, Singh S. Controlled preprint on translational hepatology. <i>medRxiv</i>. Published online 2025. doi:10.1101/2025.01.15.123456</div>\n  </div>\n",
+      "plain_text": "[14] Rivera R, Singh S. Controlled preprint on translational hepatology. medRxiv. Published online 2025. doi:10.1101/2025.01.15.123456"
+    }
+  ],
+  "public_projection": "Absolute resource paths replaced with case-relative paths or external resource identifiers; result fields unchanged."
+}
